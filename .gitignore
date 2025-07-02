@@ -1,0 +1,53 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Go workspace file
+go.work
+
+# Built application binaries - DO NOT COMMIT TO GIT
+# These should be distributed via GitHub Releases instead
+/dist/
+/build/
+logmd
+logmd-*
+
+# macOS specific files
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
+# Log files
+*.log
+
+# Local test data
+test-journal/
+.test-journal/
+
+# Local configuration for development
+.env
+.env.local
+
+# Homebrew testing
+*.bottle.*
+
+# Crash logs
+crash.log 
